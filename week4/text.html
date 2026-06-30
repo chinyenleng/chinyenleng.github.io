@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(209, 172, 243);
+    }
+
+    .container {
+        display: flex;
+        gap: 20px;
+    }
+
+    .child {
+        width: 25%;
+        background-color: rgb(139, 139, 236);
+    }
+
+    @media screen and (min-width:580px) {
+        body {
+            background-color: aqua
+        }
+
+        .container {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .child {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <h1>Resize the browser window to see the effect!</h1>
+    <p>The media query is applied if the media type is screen, and the viewport width is 480px or more. </p>
+    <div class="container">
+        <div class="child">111111111111111</div>
+        <div class="child">222222222222222</div>
+    </div>
+</body>
+
+</html>
