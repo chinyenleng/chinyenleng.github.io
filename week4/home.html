@@ -7,12 +7,75 @@
     <title>Exercise 1</title>
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gelasio:ital,wght@0,400..700;1,400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    .bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+        margin: 10px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 600;
+    }
+
+    .services {
+        color: #f9612b;
+    }
+
+    .phonenumber {
+        font-family: "Google Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
     button {
         background: #f9612b;
         color: white;
         border: none;
-        border-radius: 5px;
+        border-radius: 6px;
         padding: 10px 15px;
+    }
+
+    @media screen and (min-width: 1500px) {
+        .hamburger {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 1550px) {
+        .hamburger {
+            display: flex;
+        }
+
+        button {
+            display: none;
+        }
+
+        .menu {
+            display: none
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .phonenumber {
+            display: none;
+        }
+
+        .phone {
+            display: none;
+        }
     }
 </style>
 
@@ -23,15 +86,15 @@
 
         <div class="menu">
             <div>Home</div>
-            <div>Services</div>
+            <div class="services">Services</div>
             <div>Work</div>
             <div>Project Details</div>
             <div>Contact</div>
         </div>
         <div class="contact">
-            <div><img src="image/phone.png" alt="phone" width="35px"></div>
-            <div>555-123-4567</div>
-            <div><img src="image/hamburger.png" alt="hamburger" width="35px"></div>
+            <div class="phone"><img src="image/phone.png" alt="phone" width="30px"></div>
+            <div class="phonenumber">555-123-4567</div>
+            <div class="hamburger"><img src="image/hamburger.png" alt="hamburger" width="35px"></div>
             <div><button>Contact</button></div>
         </div>
     </div>
