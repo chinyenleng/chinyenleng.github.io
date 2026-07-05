@@ -50,15 +50,6 @@
         padding: 35px 50px;
     }
 
-    .leftbox {
-        width: 45%;
-
-    }
-
-    .rightbox {
-        height: 100%;
-    }
-
     h1 {
         font-size: 60px;
         font-weight: 500;
@@ -69,6 +60,10 @@
         font-size: 20px;
         font-weight: 400;
         line-height: 1.4;
+    }
+
+    .leftbox {
+        width: 45%
     }
 
     .buttonbookaconsutation {
@@ -190,7 +185,6 @@
     .service-card img {
         max-width: 45%;
         height: auto;
-        justify-content: end;
     }
 
     .proposal {
@@ -253,9 +247,15 @@
         height: 100%;
     }
 
-    @media screen and (max-width:1200px) {
+    @media screen and (max-width:1150px) {
+        body {
+            margin: 30px 50px;
+            background: rgb(219, 159, 159)
+        }
+
         .hamburger {
             display: flex;
+            align-items: center;
         }
 
         .buttonrequestaquote {
@@ -265,6 +265,96 @@
         .menu {
             display: none;
         }
+
+        .leftbox {
+            width: 100%
+        }
+
+        .illustration {
+            display: none;
+        }
+
+        .company {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-wrap {
+            flex: 0 0 100%;
+        }
+
+        .service-card {
+            height: 300px;
+            align-items: stretch;
+        }
+
+        .service-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .service-text h3 {
+            font-size: 25px;
+        }
+
+        .service-card img {
+            height: auto;
+            max-width: 40%
+        }
+
+        .learn-more p {
+            display: none;
+        }
+
+        .learn-more img {
+            height: 80%;
+            width: 100%;
+            margin-right: 150px;
+        }
+
+        .proposal {
+            padding: 30px;
+            margin: 20px;
+        }
+
+        .proposal-image {
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width:700px) {
+        body {
+            background-color: aqua;
+        }
+
+        .servicehead {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .service-grids {
+            margin: 20px;
+        }
+
+        .service-card img {
+            max-width: 35%;
+            margin-left: auto;
+        }
+
+        .card-wrap {
+            flex: 0 0 100%
+        }
+
     }
 </style>
 
@@ -292,7 +382,7 @@
             </div>
             <button class="buttonbookaconsutation">Book a consutation</button>
         </div>
-        <div class="rightbox">
+        <div class="illustration">
             <img src="image/illustration.png" width="100%">
         </div>
     </div>
