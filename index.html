@@ -4,28 +4,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>exercise3</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gelasio:ital,wght@0,400..700;1,400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+    body {
+        background-image: url("images/night-sky.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px 20px 0px 20px
+    }
+
+    .bar {
+        background-color: #FFB2B2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        margin: -10px -20px 0px -20px
+    }
+
+    .personal-logo {
+        margin-right: 500px;
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .home-page {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 36px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px;
+    }
+
+    .me {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }
+
+    .profile p {
+        text-align: center;
+        padding: 0px 250px
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .week {
+        background-color: #FFF2D0;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        padding: 20px 100px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 2px solid black;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        margin: 10px;
+    }
+
+    .bottom-bar {
+        background-color: #FFB2B2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 10px 10px;
+        margin: 68px -20px 0px -20px;
+        gap: 10px;
+    }
+
+    .disclaimer p {
+        font-size: 14px;
+    }
+</style>
 
 <body>
-    Leng<br>
-    <button>Instagram</button><br>
-    <button>Tiktok</button>
-    <p>Welcome to my home page!</p>
-    <h1>Food</h1>
-    <ol>
-        <li>Sandwich</li>
-        <li>Steak</li>
-        <li>Salad</li>
-    </ol>
-    <h2>Drinks</h2>
-    <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ul>
-    <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
-
+    <div class="bar">
+        <div class="personal-logo">
+            <div><img src="images/personal-logo.png" alt="personal-logo" width="200px"></div>
+        </div>
+        <div class="social">
+            <div> <a href="https://www.instagram.com/cyl_0715/" target="_blank"><img src="images/instagram.png"
+                        width="38" alt="Instagram"></a></div>
+            <div> <a href="https://www.tiktok.com/@chinyycbwa5" target="_blank"><img src="images/tiktok.png" width="40"
+                        alt="TikTok"></a></div>
+            <div><a href="https://x.com/yu19013882" target="_blank"><img src="images/x.png" width="40" alt="X"></a>
+            </div>
+        </div>
+    </div>
+    <div class="home-page">
+        <div class="profile">
+            <div><img src="images/me.jpeg" width="100%" alt="potrait of Chin Yen Leng" class="me"></div>
+            <div>
+                <h1>Chin Yen Leng</h1>
+            </div>
+            <div>
+                <h2>Web Publishing</h2>
+            </div>
+            <div>
+                <p>Hi, I'm Chin Yen Leng, aa student who enjoys learning web design and creating creative projects. I
+                    love exploring new ideas, improving my skills, and challenging myself with new experiences. Welcome
+                    to my profile, and thank you for stopping by!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="week">
+            <div class="content">
+                <div><img src="images/week.png" width="50px" alt="week"></div>
+                <h2>week 2</h2>
+            </div>
+            <div class="links">
+                <div><a href="http://127.0.0.1:5500/week2/button.html" target="_blank">Exercise 1</a></div>
+                <div><a href="http://127.0.0.1:5500/week2/self-intro.html" target="_blank">Exercise 2</a></div>
+                <div><a href="http://127.0.0.1:5500/week2/artist.html" target="_blank">Exercise 3</a></div>
+            </div>
+        </div>
+        <div class="week">
+            <div class="content">
+                <div><img src="images/week.png" width="50px" alt="week"></div>
+                <h2>week 3</h2>
+            </div>
+            <div class="links">
+                <div><a href="http://127.0.0.1:5500/week3/flexbox1.html" target="_blank">Exercise 1</a></div>
+                <div><a href="http://127.0.0.1:5500/week3/flexbox2.html" target="_blank">Exercise 2</a></div>
+            </div>
+        </div>
+        <div class="week">
+            <div class="content">
+                <div><img src="images/week.png" width="50px" alt="week"></div>
+                <h2>week 4</h2>
+            </div>
+            <div class="links">
+                <div><a href="http://127.0.0.1:5500/week4/menu.html" target="_blank">Exercise 1</a></div>
+                <div><a href="http://127.0.0.1:5500/week4/home.html" target="_blank">Exercise 2</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <div class="social">
+            <div> <a href="https://www.instagram.com/cyl_0715/" target="_blank"><img src="images/instagram.png"
+                        width="38" alt="Instagram"></a></div>
+            <div> <a href="https://www.tiktok.com/@chinyycbwa5" target="_blank"><img src="images/tiktok.png" width="40"
+                        alt="TikTok"></a></div>
+            <div><a href="https://x.com/yu19013882" target="_blank"><img src="images/x.png" width="40" alt="X"></a>
+            </div>
+        </div>
+        <div class="disclaimer">
+            <p>Disclaimer</p>
+        </div>
+    </div>
 
 </body>
 
