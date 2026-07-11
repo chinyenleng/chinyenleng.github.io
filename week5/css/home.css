@@ -1,0 +1,395 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gelasio:ital,wght@0,400..700;1,400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+  body {
+      margin: 51px 20px;
+      font-family: "Space Grotesk", sans-serif;
+  }
+
+  .bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 30px;
+      gap: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+
+  .menu {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      font-size: 20px;
+  }
+
+  .hamburger {
+      display: none
+  }
+
+  .buttonrequestaquote {
+      padding: 20px 35px;
+      background: white;
+      border: 1px solid black;
+      border-radius: 14px;
+      font-family: "Space Grotesk", sans-serif;
+  }
+
+  .text {
+      display: flex;
+      justify-content: space-between;
+      gap: 35px;
+      padding: 35px 50px;
+  }
+
+  .speaker1 {
+      display: none;
+  }
+
+  h1 {
+      font-size: 60px;
+      font-weight: 500;
+
+  }
+
+  p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.4;
+  }
+
+  .leftbox {
+      width: 50%
+  }
+
+  .buttonbookaconsultation {
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 16px;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 20px;
+      padding: 20px 35px;
+      margin-top: 20px;
+  }
+
+  .company {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 25px;
+      padding-right: 25px;
+      filter: grayscale(100%);
+  }
+
+  .servicehead {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-top: 80px;
+      padding: 0px 50px;
+  }
+
+  .servicehead h2 {
+      font-size: 40px;
+      font-weight: 500;
+      background: #B9FF66;
+      border: none;
+      border-radius: 7px;
+      padding: 7px;
+      gap: 10px;
+      margin: 0;
+  }
+
+  .servicehead p {
+      font-size: 18px;
+      font-weight: 400;
+      max-width: 580px;
+      margin: 0;
+  }
+
+  .service-grids {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px 30px;
+  }
+
+  .card-wrap {
+      width: 50%;
+  }
+
+  .service-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      padding: 20px 50px;
+      margin: 40px 20px 0 20px;
+      border: 1px solid #191A23;
+      border-radius: 45px;
+      box-shadow: 0px 5px 0px #191A23;
+  }
+
+  .card-grey {
+      background-color: #F3F3F3;
+  }
+
+  .card-green {
+      background-color: #B9FF66;
+  }
+
+  .card-black {
+      background-color: #191A23;
+  }
+
+  .title {
+      padding: 7px;
+      border-radius: 7px;
+      display: inline-block;
+  }
+
+  .service-text {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 93px;
+  }
+
+  .service-text h3 {
+      gap: 10px;
+      font-size: 22px;
+      font-weight: 500;
+  }
+
+  .learn-more {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 15px;
+
+  }
+
+  .learn-more img {
+      width: 41px;
+      height: 41px;
+  }
+
+  .learn-more p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.4;
+  }
+
+  .service-card img {
+      max-width: 45%;
+      height: auto;
+  }
+
+  .proposal {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background: #F3F3F3;
+      border-radius: 45px;
+      margin: 70px 50px;
+      padding-left: 60px;
+      max-height: 347px;
+  }
+
+  .proposal-text {
+      gap: 26px;
+      margin-bottom: 26px;
+  }
+
+  .proposal-text h3 {
+      font-size: 30px;
+      font-weight: 500;
+      margin: 0px;
+  }
+
+  .proposal-text p {
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0px;
+  }
+
+  .buttongetyourfreeproposal {
+      background-color: #191A23;
+      color: white;
+      border: none;
+      border-radius: 14px;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 20px 35px;
+      gap: 10px;
+      margin-top: 20px;
+  }
+
+  .buttongetyourproposal {
+      background-color: #191A23;
+      color: white;
+      border: none;
+      border-radius: 14px;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 20px 35px;
+      gap: 10px;
+      margin-top: 20px;
+      display: none;
+  }
+
+  .proposal-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+  }
+
+  @media screen and (max-width:1150px) {
+      .hamburger {
+          display: flex;
+          align-items: center;
+      }
+
+      .buttonrequestaquote {
+          display: none;
+      }
+
+      .menu {
+          display: none;
+      }
+
+      .speaker1 {
+          display: flex;
+      }
+
+      .leftbox {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+      }
+
+      .illustration {
+          display: none;
+      }
+
+      .company {
+          display: flex;
+          flex-wrap: wrap;
+          max-width: 100%;
+          height: auto;
+      }
+
+      .text {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .card-wrap {
+          width: 100%
+      }
+
+      .service-card {
+          height: 300px;
+          align-items: center;
+      }
+
+      .service-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+      }
+
+      .service-text h3 {
+          font-size: 25px;
+      }
+
+      .service-card img {
+          height: auto;
+          max-width: 40%
+      }
+
+      .learn-more p {
+          display: none;
+      }
+
+      .learn-more img {
+          height: 80%;
+          width: 100%;
+          margin-right: 150px;
+      }
+
+      .proposal {
+          padding: 30px;
+          margin: 20px;
+      }
+
+      .proposal-image {
+          display: none;
+      }
+
+  }
+
+  @media screen and (max-width:800px) {
+      .bar {
+          padding-left: 20px;
+          padding-right: 20px;
+      }
+
+      .text {
+          padding: 35px 20px;
+      }
+
+      .servicehead {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .servicehead p {
+          text-align: center;
+      }
+
+      .service-grids {
+          margin: 20px;
+      }
+
+      .service-card {
+          height: 260px;
+          align-items: flex-end;
+          padding: 20px 30px
+      }
+
+      .service-text {
+          gap: 20px
+      }
+
+      .service-text h3 {
+          font-size: 20px;
+      }
+
+      .service-card img {
+          max-width: 50%;
+          margin-left: auto;
+      }
+
+      .card-wrap {
+          width: 100%
+      }
+
+      .proposal-text {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .buttongetyourfreeproposal {
+          display: none;
+      }
+
+      .buttongetyourproposal {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+  }
