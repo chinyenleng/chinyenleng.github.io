@@ -212,3 +212,20 @@
      margin-top: 15px;
      padding-top: 15px;
  }
+
+ .team-button-wrap {
+     display: flex;
+     justify-content: flex-end;
+     padding: 0px 50px;
+     margin-top: 40px;
+ }
+
+ .see-all-button {
+     background-color: #191A23;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-weight: 400;
+     border-radius: 14px;
+     padding: 20px 50px;
+     gap: 10px;
+ }
