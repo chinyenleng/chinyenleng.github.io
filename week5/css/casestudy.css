@@ -135,6 +135,80 @@
  }
 
  .plus-minus-icon {
-     width: 40px;
-     height: 40px;
+     width: 58px;
+     height: 58px;
+ }
+
+ .process-card-card-gray {
+     background-color: #F3F3F3;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     padding: 41px 60px;
+     margin: 40px 20px 0 20px;
+     border: 1px solid #191A23;
+     border-radius: 45px;
+     box-shadow: 0px 5px 0px #191A23;
+ }
+
+ .team-grid {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 40px;
+     margin-top: 40px;
+
+ }
+
+ .team-card {
+     border: 1px solid#191A23;
+     border-radius: 45px;
+     box-shadow: 0px 5px 0px #191A23;
+     box-sizing: border-box;
+     width: calc(33.33% - calc(80px / 3));
+     padding: 40px 35px;
+     gap: 10px;
+ }
+
+ .team-top {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin-bottom: 20px;
+ }
+
+ .team-photo-name {
+     display: flex;
+     align-items: flex-end;
+     gap: 15px
+ }
+
+ .team-photo {
+     width: 100px;
+     height: 100px;
+ }
+
+ .in-icon {
+     width: 34px;
+     height: 34px;
+
+ }
+
+ .team-name-role h4 {
+     font-size: 20px;
+     font-weight: 500;
+     margin: 0;
+ }
+
+ .team-name-role p {
+     font-size: 18px;
+     font-weight: 400;
+     margin: 5px 0px 0px 0px;
+ }
+
+ .team-doc {
+     font-size: 18px;
+     font-weight: 400;
+     border-top: 1px solid#000000;
+     margin-top: 15px;
+     padding-top: 15px;
  }
