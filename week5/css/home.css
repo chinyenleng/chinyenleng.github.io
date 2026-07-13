@@ -247,19 +247,6 @@
   }
 
   @media screen and (max-width:1150px) {
-      .hamburger {
-          display: flex;
-          align-items: center;
-      }
-
-      .buttonrequestaquote {
-          display: none;
-      }
-
-      .menu {
-          display: none;
-      }
-
       .speaker1 {
           display: flex;
       }
@@ -333,11 +320,6 @@
   }
 
   @media screen and (max-width:800px) {
-      .bar {
-          padding-left: 20px;
-          padding-right: 20px;
-      }
-
       .text {
           padding: 35px 20px;
       }
