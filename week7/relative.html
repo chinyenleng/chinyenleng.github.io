@@ -7,7 +7,15 @@
     <title>Exercise 1</title>
 </head>
 <style>
+    body {
+        background-color: rgb(247, 240, 232);
+        font-family: Arial, sans-serif;
+    }
+
     .caring-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         margin-top: 50px;
     }
@@ -15,18 +23,66 @@
     .caring-title h1 {
         color: #585858;
         font-family: Arial, sans-serif;
-        text-align: center;
-        font-size: 50px
+        font-size: 40px
     }
 
     .caring-title p {
-        color: #8f8e8e;
+        color: #5a5a5a;
         font-family: Arial, sans-serif;
-        text-align: center;
         font-size: 20px;
-        max-width: 900px;
+        max-width: 750px;
         line-height: 1.5;
-        margin: 0 auto;
+        margin: auto;
+    }
+
+    .card-photo {
+        width: 100%;
+        border-radius: 10px;
+
+    }
+
+    .card-content {
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 20px 15px #edf1f5;
+        background-color: white;
+        position: relative;
+        bottom: 80px;
+        width: 325px;
+        margin: auto;
+    }
+
+    .marketing-card {
+        width: 400px;
+        margin: auto;
+    }
+
+    .marketing-grids {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .card-title {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: -30px;
+        color: #888889;
+    }
+
+    .card-readmore {
+        display: flex;
+        font-size: 26px;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+        color: #6bb76c;
+        margin: 0px;
+        font-weight: 600;
     }
 </style>
 
@@ -43,12 +99,39 @@
     </div>
     <div class="marketing-grids">
         <div class="marketing-card">
-            <div><img src="image/image1.jpg" alt="image1" class="team-photo"></div>
-            <div>
-                <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+            <div><img src="image/images1.jpg" alt="image1" class="card-photo"></div>
+            <div class="card-content">
+                <div class="card-title">
+                    <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+                </div>
+                <div class="card-readmore">
+                    <p>Readmore</p>
+                    <img src="image/readmore-arrow.png" alt="readmore-arrow" width="50px">
+                </div>
             </div>
-            <div>
-                <p>Readmore</p>
+        </div>
+        <div class="marketing-card">
+            <div><img src="image/images2.jpg" alt="image2" class="card-photo"></div>
+            <div class="card-content">
+                <div class="card-title">
+                    <p>What are your safeguarding responsibilities and how can you manage them?</p>
+                </div>
+                <div class="card-readmore">
+                    <p>Readmore</p>
+                    <img src="image/readmore-arrow.png" alt="readmore-arrow" width="50px">
+                </div>
+            </div>
+        </div>
+        <div class="marketing-card">
+            <div><img src="image/images3.jpg" alt="image3" class="card-photo"></div>
+            <div class="card-content">
+                <div class="card-title">
+                    <p>Revamping the Membership Model with Triathlon Australia</p>
+                </div>
+                <div class="card-readmore">
+                    <p>Readmore</p>
+                    <img src="image/readmore-arrow.png" alt="readmore-arrow" width="50px">
+                </div>
             </div>
         </div>
     </div>
