@@ -82,7 +82,8 @@
      flex-direction: column;
      border-radius: 12px;
      padding: 20px 30px;
-     width: calc(33.33% - 20px)
+     width: calc(33.33% - 20px);
+     align-items: center;
  }
 
  .content {
