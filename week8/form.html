@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <h1>Registration Form - Middle School</h1>
+    <form action="/action_page.php">
+        <div class="form-box">
+            <div class="fill">
+                <div><label for="fname">First Name*</label></div>
+                <div><input type="text" id="fname" name="fname"></div>
+            </div>
+            <div class="fill">
+                <div><label for="lname">Last Name*</label></div>
+                <div><input type="text" id="lname" name="lname"></div>
+            </div>
+            <div class="fill">
+                <div><label for="dateofbirth">Date of Birth*</label></div>
+                <div><input type="date" id="dateofbirth" name="dateofbirth"></div>
+            </div>
+            <div class="fill">
+                <div><label for="emailaddress">Email Address*</label></div>
+                <div><input type="email" id="emailaddress" name="emailaddress"></div>
+            </div>
+            <div class="fill">
+                <div><label for="homepageurl">Homepage URL</label></div>
+                <div><input type="url" id="homepageurl" name="homepageurl"></div>
+            </div>
+            <div class="fill">
+                <label for="fcolors">Choose a Favoutite Colors:</label>
+                <select name="fcolors" id="fcolors">
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="blue">Blue</option>
+                    <option value="pink">Pink</option>
+                    <option value="green">Green</option>
+                    <option value="white">White</option>
+                    <option value="black">Black</option>
+                </select>
+            </div>
+            <div class="fill">
+                <div><label for="sintroduction">Bio/Self Intoduction</label></div>
+                <div><textarea id="sintroduction" name="sintroduction" row="7" cols="80"></textarea></div>
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
